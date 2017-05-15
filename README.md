@@ -9,6 +9,6 @@ version 0.16.0.
 2. Run `grunt serve` for preview.
 
 ## Run Node version
-1. Navigate to topN/node implementation
+1. Navigate to `topN/node implementation` folder
 
 2. Run `./topN ./numbers.txt 5`
