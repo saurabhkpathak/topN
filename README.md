@@ -3,10 +3,12 @@
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.16.0.
 
-## Build & development
+## Build Angular Version
+1. Navigate inside the parent folder "topN".
 
-Run `grunt` for building and `grunt serve` for preview.
+2. Run `grunt serve` for preview.
 
-## Testing
+## Run Node version
+1. Navigate to topN/node implementation
 
-Running `grunt test` will run the unit tests with karma.
+2. Run `./topN ./numbers.txt 5`
