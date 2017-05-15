@@ -6,7 +6,11 @@ version 0.16.0.
 ## Build Angular Version
 1. Navigate inside the parent folder "topN".
 
-2. Run `grunt serve` for preview.
+2. Run `npm update`
+
+3. Run `bower update`
+
+4. Run `grunt serve` for preview.
 
 ## Run Node version
 1. Navigate to `topN/node implementation` folder
