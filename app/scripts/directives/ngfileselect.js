@@ -20,22 +20,15 @@ angular.module('topNApp')
               scope.ngFileSelect = loadEvent.target.result.split('\n');
             });
           };
-          reader.readAsText(changeEvent.target.files[0]);
-          // var LineByLineReader = require('line-by-line'),
-          //   lr = new LineByLineReader('sample.txt', {
-          //     skipEmptyLines: true
-          //   });
-          // lr.on('line', function(line) {
-          //   // pause emitting of lines...
-          //   lr.pause();
-          //
-          //   // ...do your asynchronous line processing..
-          //   setTimeout(function() {
-          //
-          //     // ...and continue emitting lines.
-          //     lr.resume();
-          //   }, 100);
-          // });
+          var myFile = changeEvent.target.files[0];
+          reader.readAsText(myFile);
+          // var size = myFile.size;
+          // var chunkSize = 0;
+          // while (chunkSize < size) {
+          //   var first100 = myFile.slice(chunkSize, chunkSize + 10);
+          //   reader.readAsText(first100);
+          //   size = size - 10;
+          // }
         });
       }
     };
